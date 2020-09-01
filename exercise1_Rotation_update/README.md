@@ -10,5 +10,5 @@ When we assign ![](https://latex.codecogs.com/gif.latex?%5Cbold%7Bw%7D) a very s
 ### 1. Build the project
 
 ### 2. Result
-<div align=center><img src =https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise_1/doc/result.png></div>
+<div align=center><img src =https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise1_Rotation_update/doc/result.png></div>
 
