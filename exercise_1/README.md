@@ -7,3 +7,7 @@ We can use rotation matrix or quaternion to represent a rotation operation. When
 
 When we assign ![](https://latex.codecogs.com/gif.latex?%5Cbold%7Bw%7D) a very small value, eg. ![](https://latex.codecogs.com/gif.latex?%5Cbold%7Bw%7D%20%3D%20%5B0.01%2C0.02%2C0.03%5D%5ET), the two update results should be very close.
 
+### 1. Build the project
+
+### 2. Result
+
