@@ -6,3 +6,4 @@
 `cd build`  
 `cmake ..`  
 `make`  
+run `data_gen` in `bin` file
