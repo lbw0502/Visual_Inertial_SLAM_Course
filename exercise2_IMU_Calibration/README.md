@@ -13,11 +13,19 @@ run **data_gen** in folder **bin**.
 `cd python_tool`  
 `python draw_trajectory`
 
-### euler integration
+**euler integration: **
 <div align=center><img width=360 height=300 src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise2_IMU_Calibration/doc/euler.png></div>
 
-integration result:
+**integration result: **
 <div align=center><img src =https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise2_IMU_Calibration/doc/euler_int.png></div>
+
+**middle-point integration: **
+<div align=center><img width=360 height=300 src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise2_IMU_Calibration/doc/midpoint1.png></div>
+<div align=center><img width=360 height=300 src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise2_IMU_Calibration/doc/midpoint2.png></div>
+
+
+**integration result: **
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise2_IMU_Calibration/doc/mid_point_int.png></div>
 
 
 
