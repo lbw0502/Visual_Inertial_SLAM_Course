@@ -14,7 +14,7 @@ run **data_gen** in folder **bin**.
 `python draw_trajectory`
 
 ### euler integration
-<div align=center><img　width="150" height="150" src =https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise2_IMU_Calibration/doc/euler.png></div>
+<div align=center><img width=150 height=150 src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise2_IMU_Calibration/doc/euler.png></div>
 
 integration result:
 <div align=center><img src =https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise2_IMU_Calibration/doc/euler_int.png></div>
