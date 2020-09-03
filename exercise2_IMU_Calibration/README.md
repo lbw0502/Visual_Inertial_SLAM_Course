@@ -35,24 +35,29 @@ It can be shown that the result of middle-point integration is more accurate tha
 ### 1. Generate simulated stationary IMU data with noise
 `cd allan_calibration`  
 `catkin_make`  
-`source devel/setup.bash`
-`rosrun vio_data_simulation vio_data_simulation_node`
+`source devel/setup.bash`  
+`rosrun vio_data_simulation vio_data_simulation_node`  
 The covariance of IMU noise can be modified in file **param.h**.  
 The generated IMU data(imu.bag) is stored in ./allan_calibration/src/kalibr_allan/data.
 
 ### 2. Use kalibr_allan tool to compute the noise parameter
-**conver the .bag file to .mat file**
-`rosrun bagconvert bagconvert ./src/kalibr_allan/data/imu.bag /imu`
-The generated **imu.mat** is stored in the same folder with **imu.bag**.
+**conver the .bag file to .mat file**  
+`rosrun bagconvert bagconvert ./src/kalibr_allan/data/imu.bag /imu`  
+The generated **imu.mat** is stored in the same folder with **imu.bag**.  
 
-**calculate the noise parameter**
-`cd allan_calibration/src/kalibr_allan/matlab`
-run **SCRIPT_allan_matparallel.m**, this process last about 20min.
-run **SCRIPT_allan_matparallel.m**, the result is shown as below:
+**calculate the noise parameter**  
+`cd allan_calibration/src/kalibr_allan/matlab`  
+run **SCRIPT_allan_matparallel.m**, this process last about 20min.  
+run **SCRIPT_allan_matparallel.m**, the result is shown as below:  
 
-**covariance data 1:**
-gyro_noise_sigma = 0.015
-gyro_bias_sigma = 0.00005
-gyro_noise_sigma = 0.019
-acc_bias_sigma = 0.0005
+**covariance data 1:**  
+gyro_noise_sigma = 0.015  
+gyro_bias_sigma = 0.00005  
+gyro_noise_sigma = 0.019  
+acc_bias_sigma = 0.0005  
+
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise2_IMU_Calibration/doc/imu_gyro1.png></div>
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise2_IMU_Calibration/doc/imu_acc1.png></div>
+
+
 
