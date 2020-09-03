@@ -60,4 +60,14 @@ acc_bias_sigma = 0.0005
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise2_IMU_Calibration/doc/imu_acc1.png></div>
 
 
+**covariance data 2:**  
+gyro_noise_sigma = 0.06  
+gyro_bias_sigma = 0.0005  
+gyro_noise_sigma = 0.085  
+acc_bias_sigma = 0.005  
+
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise2_IMU_Calibration/doc/imu_gyro2.png></div>
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise2_IMU_Calibration/doc/imu_acc2.png></div>
+
+
 
