@@ -24,4 +24,9 @@ The ![](https://latex.codecogs.com/gif.latex?%5Cmu) is decided by update strateg
 + if ![](https://latex.codecogs.com/gif.latex?%5Crho%20%3C%200) and is a small nunber, enlarge ![](https://latex.codecogs.com/gif.latex?%5Cmu) and reduce the iteration step.  
 
 **The value of ![](https://latex.codecogs.com/gif.latex?%5Cmu) during the iteration:**
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise3_Curve_Fitting_LM/doc/mu.png></div>
+
+**The optimization result:**
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise3_Curve_Fitting_LM/doc/opt_result.png></div>
+
 
