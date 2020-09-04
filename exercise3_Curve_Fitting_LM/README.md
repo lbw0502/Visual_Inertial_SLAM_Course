@@ -10,3 +10,6 @@ Residual function f(x) is a non-linear function, use Taylor expansion (first ord
 <div align=center><img src=https://latex.codecogs.com/gif.latex?%5Cbold%7Bf%7D%20%28%5Cbold%7Bx%7D&plus;%5CDelta%20%5Cbold%7Bx%7D%29%20%5Capprox%20%5Cbold%7Bf%28x%29%7D%20&plus;%20%5Cbold%7BJ%7D%20%5CDelta%20%5Cbold%7Bx%7D></div>
 Lost function F(x) becomes:
 <div align=center><img src=https://latex.codecogs.com/gif.latex?F%28%5Cbold%7Bx%7D&plus;%20%5CDelta%20%5Cbold%7Bx%7D%29%20%3D%20%5Cfrac%7B1%7D%7B2%7D%20%7C%7C%5Cbold%7Bf%28x&plus;%5CDelta%20x%29%7D%7C%7C%5E2%20%3D%20F%28%5Cbold%7Bx%7D%29%20&plus;%20%5CDelta%20%5Cbold%7Bx%7D%20%5ET%20%5Cbold%7BJ%7D%5ET%5Cbold%7Bf%7D%20&plus;%20%5Cfrac%7B1%7D%7B2%7D%20%5CDelta%20%5Cbold%7Bx%7D%5ET%5Cbold%7BJ%7D%5ET%5Cbold%7BJ%7D%20%5CDelta%20%5Cbold%7Bx%7D></div>
+
+Compute first order derivative of lost function and set it to zero:
+<div align=center><img src=https://latex.codecogs.com/gif.latex?%5Cbold%7BJ%7D%5ET%20%5Cbold%7BJ%7D%20%5CDelta%20%5Cbold%7Bx%7D%20%3D%20-%5Cbold%7BJ%7D%5ET%5Cbold%7Bf%7D></div>
