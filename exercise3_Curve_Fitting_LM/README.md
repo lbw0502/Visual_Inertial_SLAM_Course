@@ -23,4 +23,5 @@ The ![](https://latex.codecogs.com/gif.latex?%5Cmu) is decided by update strateg
 + if ![](https://latex.codecogs.com/gif.latex?%5Crho%20%3E%200) and is a big number, reduce ![](https://latex.codecogs.com/gif.latex?%5Cmu), let LM be more similiar to Gauss-Newton to accelerate the convergence.
 + if ![](https://latex.codecogs.com/gif.latex?%5Crho%20%3C%200) and is a small nunber, enlarge ![](https://latex.codecogs.com/gif.latex?%5Cmu) and reduce the iteration step.  
 
-**The value of ![](https://latex.codecogs.com/gif.latex?%5Crho%20%3C%200) during the iteration**
+**The value of ![](https://latex.codecogs.com/gif.latex?%5Cmu) during the iteration:**
+
