@@ -16,3 +16,5 @@ Compute first order derivative of lost function and set it to zero:
 Levenberg and Marquardt improve this Gauss-Newton method, and use damping factor:  
 <div align=center><img src=https://latex.codecogs.com/gif.latex?%28%5Cbold%7BJ%7D%5ET%20%5Cbold%7BJ%7D%20%5CDelta%20&plus;%20%5Cmu%20%5Cbold%7BI%7D%29%20%5Cbold%7Bx%7D%20%3D%20-%5Cbold%7BJ%7D%5ET%5Cbold%7Bf%7D></div>  with 
 <div align=center><img src=https://latex.codecogs.com/gif.latex?%5Cmu%20%5Cge%200></div>
+
+The \mu
