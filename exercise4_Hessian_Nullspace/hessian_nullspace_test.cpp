@@ -28,15 +28,15 @@ int main()
     std::vector<Pose> camera_pose;
     double radius = 8;
     for(int n = 0; n < poseNums; ++n ) {
-        double theta = n * 2 * M_PI / ( poseNums * 4); // 1/4 圆弧
-        // 绕 z轴 旋转
+        double theta = n * 2 * M_PI / ( poseNums * 4);
+        // rotate around z-axis
         Eigen::Matrix3d R;
         R = Eigen::AngleAxisd(theta, Eigen::Vector3d::UnitZ());
         Eigen::Vector3d t = Eigen::Vector3d(radius * cos(theta) - radius, radius * sin(theta), 1 * sin(2 * theta));
         camera_pose.push_back(Pose(R,t));
     }
 
-    // 随机数生成三维特征点
+    // generate random 3D landmark
     std::default_random_engine generator;
     std::vector<Eigen::Vector3d> points;
     for(int j = 0; j < featureNums; ++j)
@@ -66,17 +66,13 @@ int main()
             jacobian_Ti << -x* y * fx/z_2, (1+ x*x/z_2)*fx, -y/z*fx, fx/z, 0 , -x * fx/z_2,
                             -(1+y*y/z_2)*fy, x*y/z_2 * fy, x/z * fy, 0,fy/z, -y * fy/z_2;
 
+	    // fill Hessian matrix
             H.block(i*6,i*6,6,6) += jacobian_Ti.transpose() * jacobian_Ti;
-            /// 请补充完整作业信息矩阵块的计算
             H.block(poseNums*6+j*3,poseNums*6+j*3,3,3) += jacobian_Pj.transpose()*jacobian_Pj;
             H.block(i*6,poseNums*6+j*3,6,3) += jacobian_Ti.transpose()*jacobian_Pj;
             H.block(poseNums*6+j*3,i*6,3,6) += jacobian_Pj.transpose()*jacobian_Ti;
         }
     }
-
-//    std::cout << H << std::endl;
-//    Eigen::SelfAdjointEigenSolver<Eigen::MatrixXd> saes(H);
-//    std::cout << saes.eigenvalues() <<std::endl;
 
     Eigen::JacobiSVD<Eigen::MatrixXd> svd(H, Eigen::ComputeThinU | Eigen::ComputeThinV);
     std::cout << svd.singularValues() <<std::endl;
