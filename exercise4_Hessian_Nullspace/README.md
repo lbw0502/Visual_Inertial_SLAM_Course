@@ -24,4 +24,16 @@ using chain rule:
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP4.png></div>
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP5.png></div>
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP6.png></div>
+We take first 3 dimension of P':
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP7.png></div>
+finally we have the Jacobian matrix for camera pose:
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP8.png></div>
+
+**Jacobian for landmark:**
+According to chain rule:
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP9.png></div>
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP10.png></div>
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP11.png></div>
+
+
 
