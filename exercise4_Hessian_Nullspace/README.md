@@ -29,11 +29,19 @@ We take first 3 dimension of P':
 finally we have the Jacobian matrix for camera pose:
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP8.png></div>
 
-**Jacobian for landmark:**
+**Jacobian for landmark:**  
 According to chain rule:
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP9.png></div>
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP10.png></div>
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP11.png></div>
+
+
+### build the project:
+`cd build`
+`./NullSpaceTest`
+
+after applying SVD to Hessian matrix, the last 7 singular value are close to 0. So we say **the freedom of unobservability is 7**.
+### result:
 
 
 
