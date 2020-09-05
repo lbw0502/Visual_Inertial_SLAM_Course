@@ -16,7 +16,7 @@ The Jacobian matrix respect to camera pose and landmark can be computed seperate
 **Jacobian for camera pose:**
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/Jacobian_camera.png></div>
 P' is the coordinate of landmark under camera frame, we can take its frist three dimension:
-<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP1.png></div>
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/Pnp1.png></div>
 the camera projection model respect to P' becomes:
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP2.png></div>
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/PnP3.png></div>
