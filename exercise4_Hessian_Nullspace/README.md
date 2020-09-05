@@ -37,11 +37,9 @@ According to chain rule:
 
 
 ### build the project:
-`cd build`
+`cd build`  
 `./NullSpaceTest`
 
 after applying SVD to Hessian matrix, the last 7 singular value are close to 0. So we say **the freedom of unobservability is 7**.
 ### result:
-
-
-
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise4_Hessian_Nullspace/doc/result.png></div>
