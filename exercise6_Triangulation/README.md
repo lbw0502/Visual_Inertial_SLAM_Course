@@ -18,3 +18,15 @@ where ![img](https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/
 + plug this equation into the eqution above,
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise6_Triangulation/doc/tri3.png></div>
 
++ stack all these observations together
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise6_Triangulation/doc/tri4.png></div>
+
+So we can compute the SVD of D and take the last column of V matrix as the result.
+
+
+### build the project
+### run the project
+`cd build`
+`./estimate_depth`
+### result
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise6_Triangulation/doc/result.png></div>
