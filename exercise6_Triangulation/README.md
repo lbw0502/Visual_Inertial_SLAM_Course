@@ -6,7 +6,7 @@
 + we have
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise6_Triangulation/doc/tri1.png></div> where ![img](https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise6_Triangulation/doc/lambda_k.png) is the depth of observed landmark under camera frame  
 + we also know
-<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise6_Triangulation/doc/tri2.png></div>
-![](https://latex.codecogs.com/gif.latex?%5Cbold%7BP%7D%5ET_%7Bk%2C3%7D) is the 3rd row of ![](https://latex.codecogs.com/gif.latex?%5Cbold%7BP%7D_%7Bk%7D)  
-+ plug this equation into 
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise6_Triangulation/doc/tri2.png></div>![](https://latex.codecogs.com/gif.latex?%5Cbold%7BP%7D%5ET_%7Bk%2C3%7D) is the 3rd row of ![](https://latex.codecogs.com/gif.latex?%5Cbold%7BP%7D_%7Bk%7D)  
++ plug this equation into the eqution above,
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise6_Triangulation/doc/tri3.png></div>
 
