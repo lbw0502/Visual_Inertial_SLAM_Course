@@ -1,3 +1,10 @@
 # Use Schur Complement to accelerate computation of Hessian matrix
 
 ## Schur Complement
+
+Suppose A, B, C, D are four blocks of matrix M, and D is invertible. Let
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise5_Schur_Complement/doc/schur1.png></div>.
+Then the Schur complement of the block D of matrix M is defined by
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise5_Schur_Complement/doc/schur2.png></div>.
+and if A is invertible, the Schur complement of the block A of the matrix M is defined by
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise5_Schur_Complement/doc/schur3.png></div>.
