@@ -20,3 +20,6 @@ The code generates 3 camera poses and several 3D landmarks under world frame. Th
 `cmake ..`  
 `make`  
 `./app/testMonoBA`
+
+### optimization result
+<div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise5_Schur_Complement/doc/result.png></div>
