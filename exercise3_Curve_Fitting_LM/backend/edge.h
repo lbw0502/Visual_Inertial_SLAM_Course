@@ -20,7 +20,6 @@ public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
 
     /**
-     * 构造函数，会自动化配雅可比的空间
      * constructor, can allocate dimension of Jacobian matrix
      * @param residual_dimension
      * @param num_verticies
@@ -116,8 +115,8 @@ public:
 protected:
     unsigned long id_;  // edge id
     int ordering_id_;   //edge id in problem
-    std::vector<std::string> verticies_types_;  // 各顶点类型信息，用于debug
-    std::vector<std::shared_ptr<Vertex>> verticies_; // 该边对应的顶点
+    std::vector<std::string> verticies_types_; 
+    std::vector<std::shared_ptr<Vertex>> verticies_; 
     VecX residual_;                 // residual
     std::vector<MatXX> jacobians_;  // Jacobian matrix. The dim of each Jacobian is residual x vertex[i]
     MatXX information_;             // information matrix
