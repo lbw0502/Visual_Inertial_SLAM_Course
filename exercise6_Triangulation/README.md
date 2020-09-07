@@ -26,7 +26,7 @@ So we can compute the SVD of D and take the last column of V matrix as the resul
 
 ### build the project
 ### run the project
-`cd build`
+`cd build`  
 `./estimate_depth`
 ### result
 <div align=center><img src=https://github.com/lbw0502/Visual_Inertial_SLAM_Course/blob/master/exercise6_Triangulation/doc/result.png></div>
