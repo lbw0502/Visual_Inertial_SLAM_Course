@@ -47,7 +47,7 @@ The output trajectory is stored in file **pose_output.txt** in tum format
 `cd bin`  
 1. align the space in the file  
 `cat pose_output.txt | tr -s [:space:] > pose_output_new.txt`  
-2.  draw the trajectory
+2. draw the trajectory  
 `evo_traj tum pose_output_new.txt -p`  
 3. paste the ground truth trajectory of MH-05 here as **groundtruth.csv**  
 4. convert the ground truth data to tum format  
@@ -56,4 +56,10 @@ The output trajectory is stored in file **pose_output.txt** in tum format
 `evo_ape tum groundtruth.tum pose_output_new.txt -va -p`  
 
 
+#### Note: evo installation
+```
+pip install evo --upgrade --no-binary evo
+sudo apt-get install python3.5-tk
+```
+for python3.5
 
