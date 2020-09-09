@@ -4,7 +4,7 @@
 
 The source code is released under GPLv3 license.
 
-We are still working on improving the code reliability. For any technical issues, please contact Yijia He <heyijia_2013@163.com> , Xiang Gao <https://github.com/gaoxiang12> or Huakun Cui<https://github.com/StevenCui>.
+We are still working on improving the code reliability. For any technical issues, please contact Yijia He <heyijia_2013@163.com> , Xiang Gao <https://github.com/gaoxiang12> or Huakun Cui <https://github.com/StevenCui>.
 
 For commercial inquiries, please contact Song Zhao <zhaosong@shenlanxueyuan.com>
 
