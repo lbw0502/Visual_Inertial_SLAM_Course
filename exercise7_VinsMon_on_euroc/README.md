@@ -54,6 +54,9 @@ The output trajectory is stored in file **pose_output.txt** in tum format
 `evo_traj euroc groundtruth.csv --save_as_tum`  
 5. compare the result of the ground truth and our trajectory  
 `evo_ape tum groundtruth.tum pose_output_new.txt -va -p`  
+<div align=center><img src=./doc/compare_result.png></div>
+<div align=center><img src=./doc/compare_result2.png></div>
+
 
 
 #### Note: evo installation
