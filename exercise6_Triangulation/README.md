@@ -1,4 +1,4 @@
-### Triangulation of landmark in Mono-SLAM
+# Triangulation of landmark in Mono-SLAM
 
 + consider that a landmark y can be observed by several key frames ![](https://latex.codecogs.com/gif.latex?k%20%3D%201%2C...%2Cn)
 + we use homogenous coordinate, ![](https://latex.codecogs.com/gif.latex?%5Cbold%7By%7D%20%5Cin%20%5Cmathbb%7BR%7D%5E4). The observation in each key frame is ![](https://latex.codecogs.com/gif.latex?%5Cbold%7Bx%7D_k%20%3D%20%5Bu_k%2C%20v_k%2C%201%5D%5ET)
