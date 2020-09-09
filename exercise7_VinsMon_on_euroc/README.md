@@ -9,7 +9,7 @@ We are still working on improving the code reliability. For any technical issues
 For commercial inquiries, please contact Song Zhao <zhaosong@shenlanxueyuan.com>
 
 
-### dependencies：
+### dependencies
 
 1. pangolin: <https://github.com/stevenlovegrove/Pangolin>
 
