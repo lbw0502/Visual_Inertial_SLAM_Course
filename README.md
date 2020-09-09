@@ -1,5 +1,8 @@
 # Visual_Inertial_SLAM_Course
 
+**Introduction**：
+This project is used for an online course about visual inertial odometry on [shenlanxueyuan](http://www.shenlanxueyuan.com). She is based on the VINS-Mono framework but does not rely on ROS, Ceres, G2o. This code is very basic and aims to demonstrate Eigen-based back-end LM algorithms, sliding window algorithms, robust kernel functions, etc. This code supports for Ubuntu or Mac OS.
+
 + [**exercise1**](./exercise1_Rotation_update): Rotation update of Lie algebra and quaternion
 + [**exercise2**](./exercise2_IMU_Calibration): IMU trajectory integration and IMU noise calibration
 + [**exercise3**](./exercise3_Curve_Fitting_LM): Use LM algorithm to fit a curve
