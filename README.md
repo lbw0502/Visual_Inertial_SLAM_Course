@@ -7,3 +7,6 @@
 + [**exercise5**](./exercise5_Schur_Complement): Use Schur Complement to accelerate computation of Hessian matrix
 + [**exercise6**](./exercise6_Triangulation): Triangulation of landmark in Mono-SLAM
 + [**exercise7**](./exercise7_VinsMon_on_euroc): Vins Mono on euroc dataset
+
+## Basic framework of Vins-Mono
+<div algin=center><img src=./doc/framework.png></dev>
